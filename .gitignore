@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+venv/
+*.sqlite3
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.sock
+*.db
+*.gz
+*.zip
+docker-compose.override.yml
+
+# Model and large files
+models/
+*.ckpt
+*.pt
+*.safetensors
+
+# Logs
+app/logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*/node_modules/*
